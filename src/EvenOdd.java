@@ -6,7 +6,7 @@ public class EvenOdd {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a Number: ");
         int num = scan.nextInt();
-        System.out.println("hI");
+        System.out.println("Hi Varun");
         System.out.print("Select Odd or Even numbers you want to display: ");
         /* To get the odd or even from the user*/
         Scanner scanOddEven = new Scanner(System.in);
