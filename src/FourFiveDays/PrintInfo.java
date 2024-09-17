@@ -14,6 +14,7 @@ public class PrintInfo {
     public static void  main (String [] args) {
 
         printInfo("Hello, Varun!");
+
         printInfo(28);
     }
 }
