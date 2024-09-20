@@ -5,6 +5,8 @@ public class FlyableInterface {
 
     public static void main (String [] args) {
 
+        Flyable f1 = new Airplane();
+        f1.flyable();
     }
 }
 
@@ -12,6 +14,10 @@ public class FlyableInterface {
 interface Flyable {
 
     public void fly();
+
+    default void flyable () {
+        System.out.println("flyable");
+    }
 }
 
 class Bird implements Flyable {
