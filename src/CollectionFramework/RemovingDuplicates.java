@@ -24,7 +24,5 @@ public class RemovingDuplicates {
             List<Integer> uniqueNumbers = removeDuplicates(numbers);
 
         System.out.println("Unique Numbers: " + uniqueNumbers);
-
-
     }
 }
