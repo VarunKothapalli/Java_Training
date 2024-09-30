@@ -38,7 +38,7 @@ class Account {
         }
     }
 
-    public void withDraw (double amount) {
+    public void withDraw (double amount) throws insufficientBalanceException{
         if(amount > balance) {
             throw new insufficientBalanceException("Insufficient balance! Available Balance: " +balance);
         }
